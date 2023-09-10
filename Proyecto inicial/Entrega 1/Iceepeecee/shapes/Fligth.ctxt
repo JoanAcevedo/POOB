@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Fligth
+comment0.text=\r\n\ Vuelo\ que\ se\ realiza\ sobre\ Iceepeecee\r\n\r\n\ @author\ Joan\ Acevedo\r\n\ @version\ 09/09/2023\r\n
+comment1.params=color\ from\ to
+comment1.target=Fligth(java.lang.String,\ int[],\ int[])
+comment1.text=\r\n\ Constructor\ del\ vuelo\r\n\ \r\n\ @param\ color,\ color\ del\ vuelo\r\n\ @param\ from,\ punto\ de\ inicio\ del\ vuelo\r\n\ @param\ to,\ punto\ de\ llegada\ del\ vuelo\r\n
+comment2.params=
+comment2.target=int[][]\ getLocation()
+comment2.text=\r\n\ Devuelve\ la\ locacion\ del\ vuelo\r\n\ \r\n\ @return\ una\ matriz\ con\ la\ locacion\ del\ vuelo\r\n
+comment3.params=teta
+comment3.target=void\ makePhotograph(int)
+comment3.text=\r\n\ Crea\ una\ fotografia\r\n\ \r\n\ @param\ int,\ angulo\ de\ la\ foto\r\n
+comment4.params=
+comment4.target=int\ anglePhotograph()
+comment4.text=\r\n\ Devuelve\ el\ angulo\ de\ la\ fotografia\r\n\ \r\n\ @return\ entero\ con\ el\ angulo\ de\ la\ fotografia\r\n
+comment5.params=
+comment5.target=void\ makeVisible()
+comment5.text=\r\n\ Hace\ visible\ la\ isla\r\n
+comment6.params=
+comment6.target=void\ makeInvisible()
+comment6.text=\r\n\ Hace\ invisible\ la\ isla\r\n
+numComments=7

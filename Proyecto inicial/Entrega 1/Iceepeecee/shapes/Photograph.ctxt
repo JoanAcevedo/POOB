@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Photograph
+comment0.text=\r\n\ Es\ una\ fotografia\ que\ se\ toma\ en\ el\ vuelo\r\n\ \r\n\ @author\ Joan\ Acevedo\ \r\n\ @version\ 09/09/2023\r\n
+comment1.params=color\ teta\ from\ to
+comment1.target=Photograph(java.lang.String,\ int,\ int[],\ int[])
+comment1.text=\r\n\ Crea\ una\ fotografia\r\n
+comment2.params=
+comment2.target=int\ getTeta()
+comment2.text=\r\n\ Devuelve\ el\ angulo\ de\ la\ foto\r\n\ \r\n\ @return\ entero\ con\ el\ angulo\ de\ la\ foto\r\n
+comment3.params=
+comment3.target=void\ makeVisible()
+comment3.text=\r\n\ Hace\ visible\ la\ fotografia\r\n
+comment4.params=
+comment4.target=void\ makeInvisible()
+comment4.text=\r\n\ Hace\ invisible\ la\ fotografia\r\n
+numComments=5

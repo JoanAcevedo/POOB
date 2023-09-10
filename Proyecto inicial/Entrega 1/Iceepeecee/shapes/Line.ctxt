@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Line
+comment0.text=\r\n\ Es\ una\ linea\ reacta\r\n\ \r\n\ @author\ Joan\ Acevedo\ \r\n\ @version\ 09/09/2023\r\n
+comment1.params=color\ from\ to
+comment1.target=Line(java.lang.String,\ int[],\ int[])
+comment1.text=\r\n\ Constructor\ Line\r\n\ \r\n\ @param\ color,\ color\ de\ la\ linea\r\n\ @param\ xInitial,\ posicion\ en\ x\ inicial\r\n\ @param\ yInitial,\ posicion\ en\ y\ inicial\r\n\ @param\ xFinal,\ posicion\ en\ x\ final\r\n\ @param\ yFinal,\ posicion\ en\ y\ final\r\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=\r\n\ Hace\ visible\ la\ linea\r\n
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment3.text=\r\n\ Hace\ invisible\ la\ linea\r\n
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\r\n\ Dibuja\ la\ estructura\ de\ la\ linea\r\n
+comment5.params=
+comment5.target=void\ erase()
+comment5.text=\r\n\ Borra\ la\ estructura\ de\ la\ linea\r\n
+numComments=6

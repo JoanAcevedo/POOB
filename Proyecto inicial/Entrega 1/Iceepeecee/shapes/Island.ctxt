@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Island
+comment0.text=\r\n\ Isla\ perteneciente\ al\ territorio\ Iceepeecee\r\n\r\n\ @author\ Joan\ Acevedo\r\n\ @version\ 09/09/2023\r\n
+comment1.params=color\ polygon
+comment1.target=Island(java.lang.String,\ int[][])
+comment1.text=\r\n\ Constructor\ de\ la\ isla\r\n\ \r\n\ @param\ color,\ color\ de\ la\ isla\r\n\ @param\ polygon,\ puntos\ con\ coordenadas\ de\ la\ isla\r\n
+comment2.params=
+comment2.target=int[][]\ getLocation()
+comment2.text=\r\n\ Devuelve\ la\ locacion\ de\ la\ isla\r\n\ \r\n\ @return\ una\ matriz\ con\ la\ locacion\ de\ la\ isla\r\n
+comment3.params=
+comment3.target=void\ makeVisible()
+comment3.text=\r\n\ Hace\ visible\ la\ isla\r\n
+comment4.params=
+comment4.target=void\ makeInvisible()
+comment4.text=\r\n\ Hace\ invisible\ la\ isla\r\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\r\n\ Dibuja\ la\ estructura\ de\ la\ isla\r\n
+comment6.params=
+comment6.target=void\ erase()
+comment6.text=\r\n\ Borra\ la\ estructura\ de\ la\ isla\r\n
+numComments=7
