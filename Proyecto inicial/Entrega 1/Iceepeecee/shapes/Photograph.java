@@ -10,14 +10,19 @@ public class Photograph
     private String color;
     private int teta;
     private boolean isVisible;
+    private Rectangle shadow;
     
     /**
      * Crea una fotografia
      */
-    public Photograph(String color, int teta, int[] from, int[] to){
+    public Photograph(String color, int teta, int lengthPhoto, int widthPhoto){
         this.color = color;
         this.teta = teta;
+        this.shadow = new Rectangle(lengthPhoto, widthPhoto);
+        this.shadow.changeColor(this.color);
+        // Cambiar posicion y rotar angulo
         // en proceso...
+        
     }
     
     /**
@@ -34,7 +39,7 @@ public class Photograph
      */
     public void makeVisible(){
         this.isVisible = true;
-        //en proceso...
+        this.shadow.makeVisible();
     }
     
     /**

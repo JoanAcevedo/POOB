@@ -32,6 +32,15 @@ public class Line
         this.yFinal = to[1];
     }
 
+    /** Nos da el tamaño de la linea creada
+     * 
+     * @return int con valor del tamaño de la linea
+     */
+    public int distanciaTotal(){
+        System.out.println(Math.abs(Math.sqrt(Math.pow(xFinal - xInitial, 2) + Math.pow(yFinal - yInitial, 2))));
+        return (int) Math.abs(Math.sqrt(Math.pow(xFinal - xInitial, 2) + Math.pow(yFinal - yInitial, 2)));
+    }
+    
     /**
      * Hace visible la linea
      */

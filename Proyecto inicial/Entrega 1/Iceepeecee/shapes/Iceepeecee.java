@@ -70,7 +70,9 @@ public class Iceepeecee
     public void photograph(String fligth, int teta){
         this.ok = false;
         Fligth vuelo = fligths.get(fligth);
-        vuelo.makePhotograph(teta);
+        if(vuelo != null){
+            vuelo.makePhotograph(teta);   
+        }
         this.ok = true;
     }
     
@@ -91,8 +93,10 @@ public class Iceepeecee
     public void delIsland(String color){
         this.ok = false;
         Island isla = islands.get(color);
-        isla.makeInvisible();
-        isla = null;
+        if(isla != null){
+            isla.makeInvisible();
+            islands.remove(color);
+        }
         this.ok = true;
     }
     
@@ -104,8 +108,10 @@ public class Iceepeecee
     public void delFligth(String color){
         this.ok = false;
         Fligth vuelo = fligths.get(color);
-        vuelo.makeInvisible();
-        vuelo = null;
+        if(vuelo != null){
+            vuelo.makeInvisible();
+            fligths.remove(color);
+        }
         this.ok = true;
     }
     
@@ -119,8 +125,7 @@ public class Iceepeecee
         this.ok = false;
         Island isla = islands.get(island);
         this.ok = true;
-        return isla.getLocation();
-        
+        return isla != null ? isla.getLocation() : null;   
     }
     
     /**
@@ -133,7 +138,7 @@ public class Iceepeecee
         this.ok = false;
         Fligth vuelo = fligths.get(fligth);
         this.ok = true;
-        return vuelo.getLocation();
+        return vuelo != null ? vuelo.getLocation() : null;
         
     }
     
@@ -147,7 +152,7 @@ public class Iceepeecee
         this.ok = false;
         Fligth vuelo = fligths.get(color);
         this.ok = true;
-        return vuelo.anglePhotograph();
+        return vuelo != null ? vuelo.anglePhotograph() : null;
     }
     
     /**
@@ -155,24 +160,31 @@ public class Iceepeecee
      */
     public void makeVisible(){
         this.ok = false;
-        if(this.territory != null){
-            this.territory.makeVisible();
-            for(Island island : islands.values()){
-                island.makeVisible();
-            }
-            for(Fligth fligth : fligths.values()){
-                fligth.makeVisible();
-            }
-            this.isVisible = true;
-            this.ok = true;
+        this.territory.makeVisible();
+        for(Island island : islands.values()){
+            island.makeVisible();
         }
+        for(Fligth fligth : fligths.values()){
+            fligth.makeVisible();
+        }
+        this.isVisible = true;
+        this.ok = true;
     }
     
     /**
      * Hace invisible todo lo que se encuentre dentro del territorio
      */
     public void makeInvisible(){
-        
+        this.ok = false;
+        this.territory.makeInvisible();
+        for(Island island : islands.values()){
+            island.makeInvisible();
+        }
+        for(Fligth fligth : fligths.values()){
+            fligth.makeInvisible();
+        }
+        this.isVisible = false;
+        this.ok = true;
     }
     
     /**

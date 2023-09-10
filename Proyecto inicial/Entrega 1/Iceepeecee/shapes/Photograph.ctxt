@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Photograph
 comment0.text=\r\n\ Es\ una\ fotografia\ que\ se\ toma\ en\ el\ vuelo\r\n\ \r\n\ @author\ Joan\ Acevedo\ \r\n\ @version\ 09/09/2023\r\n
-comment1.params=color\ teta\ from\ to
-comment1.target=Photograph(java.lang.String,\ int,\ int[],\ int[])
+comment1.params=color\ teta\ lengthPhoto\ widthPhoto
+comment1.target=Photograph(java.lang.String,\ int,\ int,\ int)
 comment1.text=\r\n\ Crea\ una\ fotografia\r\n
 comment2.params=
 comment2.target=int\ getTeta()

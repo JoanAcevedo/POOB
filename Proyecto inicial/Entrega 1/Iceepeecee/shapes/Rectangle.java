@@ -26,8 +26,8 @@ public class Rectangle{
     public Rectangle(int length, int width){
         this.height = length;
         this.width = width;
-        xPosition = 70;
-        yPosition = 15;
+        xPosition = 0;
+        yPosition = 0;
         color = "magenta";
         isVisible = false;
     }

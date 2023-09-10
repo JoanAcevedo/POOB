@@ -13,6 +13,7 @@ public class Fligth
     private int[] from;
     private int[] to;
     private int[][] location;
+    private static final int ALTURA = 20;
     private boolean isVisible;
     
     /**
@@ -23,9 +24,19 @@ public class Fligth
      * @param to, punto de llegada del vuelo
      */
     public Fligth(String color, int[] from, int[] to){
+        this.color = color;
         this.from = from;
         this.to = to;
         trace = new Line(color, from, to);
+    }
+    
+    /**
+     * Nos da la distancia de la trayectoria del avion
+     * 
+     * @return entero con la distancia total
+     */
+    public int trayectoria(){
+        return this.trace.distanciaTotal();
     }
     
     /**
@@ -45,7 +56,11 @@ public class Fligth
      * @param int, angulo de la foto
      */
     public void makePhotograph(int teta){
-        this.photo = new Photograph(this.color, teta, this.from, this.to);
+        int lengthPhoto = trayectoria();
+        double gamma = (double) teta;
+        int widthPhoto = (int) Math.round(2 * this.ALTURA * Math.tan(Math.toRadians(gamma)));  
+        this.photo = new Photograph(this.color, teta, lengthPhoto, widthPhoto);
+        this.photo.makeVisible();
     }
     
     /**
@@ -63,7 +78,10 @@ public class Fligth
     public void makeVisible(){
         isVisible = true;
         trace.makeVisible();
-        photo.makeVisible();
+        if(this.photo != null){
+            photo.makeVisible();    
+        }
+        
     }
     
     /**
