@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Replicate
+comment0.text=\r\n\ Matriz\ de\ Hexagonos\ que\ ofrece\ distintos\ metodos.\r\n\ \r\n\ @author\ Joan\ Acevedo\ /\ Santiago\ Sanchez\ \r\n\ @version\ 02/09/202\r\n
+comment1.params=dimension
+comment1.target=Replicate(int)
+comment1.text=\r\n\ Constructor\ de\ Replicate\r\n\ @param\ dimen,\ dimension\ de\ Replicate\r\n
+comment2.params=iPosition\ jPosition
+comment2.target=void\ pieza(int,\ int)
+comment2.text=\r\n\ Crea\ una\ pieza\ en\ una\ poscion\ determinada\ de\ Replicate\r\n\ @param\ iPosition,\ posicion\ en\ i\ de\ la\ pieza\r\n\ @param\ jPosition,\ posicion\ en\ j\ de\ la\ pieza\r\n
+comment3.params=
+comment3.target=void\ pieza()
+comment3.text=\r\n\ Crea\ una\ pieza\ en\ una\ posicion\ aleatoria\ de\ Replicate\r\n
+comment4.params=
+comment4.target=void\ replicar()
+comment4.text=\r\n\ Cumple\ parcialmente\ la\ funcion\ de\ Replicate\r\n
+comment5.params=
+comment5.target=void\ makeVisible()
+comment5.text=\r\n\ Hace\ visible\ a\ Replicate\r\n
+comment6.params=
+comment6.target=void\ makeInvisible()
+comment6.text=\r\n\ Hace\ invisible\ a\ Replicate\r\n
+comment7.params=
+comment7.target=void\ creador()
+comment7.text=\r\n\ Crea\ la\ estructura\ de\ Replicate\r\n
+numComments=8
