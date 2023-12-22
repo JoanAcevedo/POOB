@@ -1,0 +1,30 @@
+// Cambios
+
+
+Ya quedaron los diagramas de secuencia falta el reset y boardMode
+// en Dominio
+
+// en GUI
+
+Cambie las clases para que fueran solo tres para poder conectarlas con facilidad y su logica esta por jerarquia desde la inicial,hasta el juego 
+ya que esten todas las funcionalidades y se llamen sobre esas clases
+
+Que este la opcion de predeterminado (un tamaño, nombres y colores de jugador definidios)ya 
+ y la opcion de personalizados (donde ingresamos todods los datos) ya
+
+En la pestaña principal quite el guardar porque no tiene sentido guardar eso, solo deje abrir
+
+Pestañas que deberiamos tener:
+- Inicio
+Las opciones dentro del panel del juego estan incluidas reiniciar y volver al menu principal
+no la deje sobre el panel inicial porque no tendria sentido 
+
+(devolver a menu principal )-- se devuelve al menu inicial -> seguro que quiere salir? ya
+- Seleccion Humano vs Humano Ya / Maquina vs Maquina Ya
+- Configuracion inicial (predeterminado o no) Ya
+- Configuracion secundaria (en caso de personalizado -> configuracion de todos los datos (tablero y jugadores)) ya
+- Tablero (con los datos de cada jugador, tambien debe aparecer el tiempo) Ya
+- Ganador falta
+
+createInfoPlayerPanel
+gomokuPOOs.getGomokuLogic().addPlayer("Jugador 1", "black");
