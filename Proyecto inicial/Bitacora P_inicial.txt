@@ -1,0 +1,49 @@
+Ciclo 1 --------------------------------------------------------------------------------------------------------------------------
+
+* Astah
+	* Terminar y complementar el diagrama de clases (metodos "photograph")  *
+	* Agregar los condicionales de validación en los diagramas de secuencia para saber si el objeto existe o no  *
+	* Agregar en los diagramas el objeto "Avion"  
+
+* Codigo
+	* Corregir la entrada de datos en photograph (son dos angulos, inicial y final)  *
+	* Generar correctamente la sombra  *
+	* Realizar el segundo metodo de "photograph"  *
+	* Agregar en los vuelos un objeto "avion" que sea visible 
+	* Realizar la documentación respectiva  *~
+
+Ciclo 2 --------------------------------------------------------------------------------------------------------------------------
+
+* Astah
+	* Agregar todos los nuevos metodos y clases al diagrama de clases  *
+	* Realizar los diagramas de secuencia según los nuevos requirimientos  *
+
+* Codigo
+	* Crear el nuevo constructor de Iceepeecee  *
+	* Hacer que las camaras tengan angulos no enteros  *
+	* Consultar todas las islas y los vuelos  *
+	* Consultar las islas registradas en las fotografias  *
+	* Consultar los vuelos con fotografias inutiles  *
+	* Las islas fotografiadas deben lucir diferentes *
+	* Agregar las pruebas de unidad  *~
+
+* Pruebas de aceptación
+	* Realizar 2 de estas pruebas 
+
+Ciclo 3 --------------------------------------------------------------------------------------------------------------------------
+
+* Astah
+	* Agregar la nueva clase y todos los nuevos metodos al diagrama de clases *
+	* Realizar los diagramas de secuencia según los nuevos requirimientos *
+
+* Codigo
+	* Crear la nueva clase *
+	* Crear el metodo que soluciona el problema de marato *
+	* Hacer el metodo de simulación *
+	* Agregar las pruebas de unidad correspondiente a la nueva clase
+
+* Pruebas de aceptación
+	* -------------------
+
+Ciclo 4 --------------------------------------------------------------------------------------------------------------------------
+

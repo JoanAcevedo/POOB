@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CostumeShopException
+comment0.text=\r\n\ Esta\ es\ la\ clase\ encargada\ de\ generar\ excepciones.\r\n\r\n\ @author\ Joan\ Acevedo\ /\ Santiago\ Sanchez\r\n\ @version\ 27/10/2023\r\n
+comment1.params=message
+comment1.target=CostumeShopException(java.lang.String)
+numComments=2

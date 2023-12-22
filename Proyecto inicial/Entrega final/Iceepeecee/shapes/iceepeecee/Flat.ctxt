@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Flat
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Flat\ here.\r\n\r\n\ @author\ Joan\ Acevedo\r\n\ @version\ 25/10/2023\r\n
+comment1.params=color\ from\ to\ lengthT\ widthT
+comment1.target=Flat(java.lang.String,\ int[],\ int[],\ int,\ int)
+comment1.text=\r\n\ Constructor\ del\ vuelo\ tipo\ Flat\r\n\ \r\n\ @param\ color,\ color\ del\ vuelo\r\n\ @param\ from,\ punto\ de\ inicio\ del\ vuelo\r\n\ @param\ to,\ punto\ de\ llegada\ del\ vuelo\r\n\ @param\ Iceepeecee,\ territorio\ al\ que\ pertenece\ el\ vuelo\r\n\ @throws\ SALE_DEL_TERRITORIO\ si\ el\ vuelo\ se\ sale\ del\ territorio\r\n
+numComments=2

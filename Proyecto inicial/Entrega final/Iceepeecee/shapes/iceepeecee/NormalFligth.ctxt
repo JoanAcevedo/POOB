@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=NormalFligth
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ NormalFligth\ here.\r\n\ \r\n\ @author\ Joan\ Acevedo\ \r\n\ @version\ 04/11/2023\r\n
+comment1.params=color\ from\ to\ lengthT\ widthT
+comment1.target=NormalFligth(java.lang.String,\ int[],\ int[],\ int,\ int)
+numComments=2

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Surprising
+comment0.text=\r\n\ Isla\ que\ se\ hace\ mas\ peque\u00F1a\ cada\ vez\ que\ se\ pide\ su\ ubicacion.\r\n\r\n\ @author\ Joan\ Acevedo\r\n\ @version\ 25/10/2023\r\n
+comment1.params=color\ polygon\ lengthT\ widthT
+comment1.target=Surprising(java.lang.String,\ int[][],\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ isla\ tipo\ Surprising\r\n\ \r\n\ @param\ color,\ color\ de\ la\ isla\r\n\ @param\ polygon,\ puntos\ con\ coordenadas\ de\ la\ isla\r\n\ @param\ Iceepeecee,\ territorio\ al\ que\ pertenece\ la\ isla\r\n\ @throws\ SALE_DEL_TERRITORIO\ si\ la\ isla\ se\ sale\ del\ territorio\r\n
+comment2.params=
+comment2.target=int[][]\ getLocation()
+comment3.params=matriz
+comment3.target=int[][]\ eliminarUltimoElemento(int[][])
+comment3.text=\r\n\ Elimina\ el\ ultimo\ elemento\ de\ la\ isla\ Fixed\r\n\ \r\n\ @param\ matriz,\ isla\ previa\ al\ cambio\r\n\ @return\ int[][]\ isla\ con\ los\ nuevos\ cambios\r\n
+numComments=4

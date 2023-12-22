@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Fixed
+comment0.text=\r\n\ Isla\ que\ no\ se\ deja\ eliminar.\r\n\r\n\ @author\ Joan\ Acevedo\r\n\ @version\ 25/20/2023\r\n
+comment1.params=color\ polygon\ lengthT\ widthT
+comment1.target=Fixed(java.lang.String,\ int[][],\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ isla\ tipo\ Fixed\r\n\ \r\n\ @param\ color,\ color\ de\ la\ isla\r\n\ @param\ polygon,\ puntos\ con\ coordenadas\ de\ la\ isla\r\n\ @param\ Iceepeecee,\ territorio\ al\ que\ pertenece\ la\ isla\r\n\ @throws\ SALE_DEL_TERRITORIO\ si\ la\ isla\ se\ sale\ del\ territorio\r\n
+numComments=2
