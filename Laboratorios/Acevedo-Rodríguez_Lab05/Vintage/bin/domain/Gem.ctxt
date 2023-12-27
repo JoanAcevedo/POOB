@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Gem
+comment0.text=\r\n\ Gem\ represents\ a\ gemstone\ that\ occupies\ a\ specific\ cell\ on\ the\ game\ board.\r\n\ @author\ Joan\ Acevedo\ /\ Laura\ Rodriguez\r\n\ @version\ 18/11/2023\r\n
+comment1.params=color
+comment1.target=Gem(java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ gem\ with\ a\ specific\ color.\r\n\ @param\ color\ The\ color\ of\ the\ gem.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getColor()
+comment2.text=\r\n\ Gets\ the\ color\ of\ the\ gem.\r\n\ @return\ The\ color\ of\ the\ gem.\r\n
+numComments=3

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Box
+comment0.text=\r\n\ Represents\ a\ cell\ on\ the\ game\ board\ that\ contains\ a\ gem.\r\n\ @author\ Joan\ Acevedo\ /\ Laura\ Rodriguez\r\n\ @version\ 11/18/2023\r\n
+comment1.params=position
+comment1.target=Box(int[])
+comment1.text=\r\n\ Constructor\ for\ a\ box\ that\ requires\ a\ position.\r\n\ @param\ position\ The\ coordinates\ of\ the\ box.\r\n
+comment2.params=
+comment2.target=int[]\ getPosition()
+comment2.text=\r\n\ Gets\ the\ position\ of\ the\ box.\r\n\ @return\ An\ array\ of\ integers\ representing\ the\ position\ of\ the\ box.\r\n
+comment3.params=
+comment3.target=boolean\ getState()
+comment3.text=\r\n\ Indicates\ whether\ the\ gems\ in\ this\ box\ have\ been\ destroyed.\r\n\ @return\ False\ if\ not\ destroyed,\ true\ if\ already\ destroyed.\r\n
+comment4.params=
+comment4.target=Gem\ getGem()
+comment4.text=\r\n\ Gets\ the\ gem\ corresponding\ to\ this\ box.\r\n\ @return\ The\ gem\ belonging\ to\ the\ box.\r\n
+comment5.params=gem
+comment5.target=void\ setGem(Gem)
+comment5.text=\r\n\ Allows\ changing\ the\ gem\ in\ this\ box.\r\n\ @param\ gem\ The\ new\ gem.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getGemColor()
+comment6.text=\r\n\ Gets\ the\ color\ of\ the\ gem\ in\ this\ box.\r\n\ @return\ The\ color\ of\ the\ gem.\r\n
+comment7.params=
+comment7.target=void\ generateGem()
+comment7.text=\r\n\ Generates\ a\ gem\ of\ a\ random\ color\ in\ this\ box.\r\n
+numComments=8

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=VintageTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ play_validMove_shouldMoveGems()
+comment3.params=
+comment3.target=void\ getScoreboardPlayer_initialScore_shouldReturnZero()
+comment4.params=
+comment4.target=void\ refresh_resetBoard_shouldHaveEmptyBoard()
+comment5.params=
+comment5.target=void\ getHeightBoard_initialBoard_shouldReturnEight()
+comment6.params=
+comment6.target=void\ getWidthBoard_initialBoard_shouldReturnEight()
+comment7.params=
+comment7.target=void\ play_invalidMove_shouldNotMoveGems()
+comment8.params=
+comment8.target=void\ getScoreboardPlayer_afterWinningMove_shouldIncreaseScore()
+comment9.params=
+comment9.target=void\ refresh_afterMultipleMoves_shouldHaveEmptyBoard()
+numComments=10

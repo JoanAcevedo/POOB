@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Player\ who\ is\ responsible\ for\ making\ gem\ movements.\r\n\ @author\ Joan\ Acevedo\ /\ Laura\ Rodriguez\r\n\ @version\ 18/11/2023\r\n
+comment1.params=name
+comment1.target=Player(java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ player\ with\ a\ specific\ name.\r\n\ @param\ name\ The\ name\ of\ the\ player.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Gets\ the\ name\ of\ the\ player.\r\n\ @return\ The\ name\ of\ the\ player.\r\n
+comment3.params=
+comment3.target=int\ getScoreboard()
+comment3.text=\r\n\ Gets\ the\ scoreboard\ of\ the\ player.\r\n\ @return\ The\ scoreboard\ of\ the\ player.\r\n
+comment4.params=
+comment4.target=int\ getMoveNumber()
+comment4.text=\r\n\ Gets\ the\ move\ number\ of\ the\ player.\r\n\ @return\ The\ move\ number\ of\ the\ player.\r\n
+comment5.params=
+comment5.target=void\ setMoveNumber()
+comment5.text=\r\n\ Increases\ the\ move\ number\ by\ one.\r\n
+comment6.params=
+comment6.target=void\ setScoreboard()
+comment6.text=\r\n\ Increases\ the\ player's\ scoreboard\ by\ 10\ points.\r\n
+numComments=7
